@@ -1,4 +1,4 @@
-// Currents.h
+// TCPError.swift
 //
 // The MIT License (MIT)
 //
@@ -21,3 +21,19 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
+
+import Tide
+
+public struct TCPError : ErrorType, CustomStringConvertible {
+    public let description: String
+    public let bytesProcessed: Int?
+
+    init(description: String, bytesProcessed: Int? = nil) {
+        self.description = description
+        self.bytesProcessed = bytesProcessed
+    }
+
+    static var lastSystemErrorDescription: String {
+        return String.fromCString(strerror(errno))!
+    }
+}

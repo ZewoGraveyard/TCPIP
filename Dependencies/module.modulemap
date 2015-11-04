@@ -1,0 +1,4 @@
+module Tide [system] {
+    header "Tide/tide_swift.h"
+    export *
+}
