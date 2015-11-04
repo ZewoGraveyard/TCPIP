@@ -15,8 +15,8 @@ Currents
 - [x] No `Foundation` depency (**Linux ready**)
 - [x] Local IP
 - [x] Remote IP
-- [x] TCPServerSocket
-- [x] TCPClientSocket
+- [x] TCP Server Socket
+- [x] TCP Client Socket
 
 ## Usage
 
