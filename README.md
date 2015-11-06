@@ -12,7 +12,7 @@ Currents
 
 ## Features
 
-- [x] No `Foundation` depency (**Linux ready**)
+- [x] No `Foundation` dependency (**Linux ready**)
 - [x] Local IP
 - [x] Remote IP
 - [x] TCP Server Socket
