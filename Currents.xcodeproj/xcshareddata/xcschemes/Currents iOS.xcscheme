@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B00510E91BE9952D001B3F26"
-               BuildableName = "Currents iOS.framework"
+               BuildableName = "Currents.framework"
                BlueprintName = "Currents iOS"
                ReferencedContainer = "container:Currents.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B00510E91BE9952D001B3F26"
-            BuildableName = "Currents iOS.framework"
+            BuildableName = "Currents.framework"
             BlueprintName = "Currents iOS"
             ReferencedContainer = "container:Currents.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B00510E91BE9952D001B3F26"
-            BuildableName = "Currents iOS.framework"
+            BuildableName = "Currents.framework"
             BlueprintName = "Currents iOS"
             ReferencedContainer = "container:Currents.xcodeproj">
          </BuildableReference>
@@ -84,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B00510E91BE9952D001B3F26"
-            BuildableName = "Currents iOS.framework"
+            BuildableName = "Currents.framework"
             BlueprintName = "Currents iOS"
             ReferencedContainer = "container:Currents.xcodeproj">
          </BuildableReference>
