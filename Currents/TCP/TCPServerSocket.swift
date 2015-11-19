@@ -26,12 +26,15 @@ import Tide
 
 public final class TCPServerSocket {
     private var socket: tcpsock
+    public private(set) var closed = false
 
     public var port: Int {
         return Int(tcpport(self.socket))
     }
 
-    public private(set) var closed = false
+    public var fileDescriptor: Int32 {
+        return tcpfd(socket)
+    }
 
     public init(ip: IP, backlog: Int = 10) throws {
         self.socket = tcplisten(ip.address, Int32(backlog))

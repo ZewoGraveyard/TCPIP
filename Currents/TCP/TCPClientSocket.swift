@@ -28,7 +28,7 @@ public final class TCPClientSocket {
     private var socket: tcpsock
     public private(set) var closed = false
 
-    var fileDescriptor: Int32 {
+    public var fileDescriptor: Int32 {
         return tcpfd(socket)
     }
 
