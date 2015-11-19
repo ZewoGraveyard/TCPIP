@@ -344,8 +344,8 @@
 			projectRoot = "";
 			targets = (
 				B005109A1BE97B7B001B3F26 /* Currents OSX */,
-				B00510A41BE97B7B001B3F26 /* Currents OSX Tests */,
 				B00510E91BE9952D001B3F26 /* Currents iOS */,
+				B00510A41BE97B7B001B3F26 /* Currents OSX Tests */,
 				B00510F21BE9952D001B3F26 /* Currents iOS Tests */,
 			);
 		};
@@ -609,7 +609,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Currents/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsiOS;
 				PRODUCT_MODULE_NAME = Currents;
@@ -631,7 +631,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Currents/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsiOS;
 				PRODUCT_MODULE_NAME = Currents;
@@ -690,6 +690,7 @@
 				B00510B11BE97B7B001B3F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Currents OSX Tests" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +699,7 @@
 				B00510B41BE97B7B001B3F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Currents iOS" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +708,7 @@
 				B00510FD1BE9952D001B3F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Currents iOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +717,7 @@
 				B00511001BE9952D001B3F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
