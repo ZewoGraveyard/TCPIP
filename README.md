@@ -92,7 +92,7 @@ To integrate Currents into your Xcode project using CocoaPods, specify it in you
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-pod 'Currents'
+pod 'Currents', '0.2'
 ```
 
 Then, run the following command:
@@ -115,7 +115,7 @@ $ brew install carthage
 To integrate **Currents** into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "Zewo/Currents"
+github "Zewo/Currents" == 0.2
 ```
 
 ### Manually
