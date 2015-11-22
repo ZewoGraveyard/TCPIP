@@ -66,7 +66,7 @@ do {
 	
 	// calls to send append the data to an internal
 	// buffer to minimize system calls
-	try clientSocket.sendString("yo\n")\
+	try clientSocket.sendString("yo\n")
 	// flush actually sends all data in the buffer
 	try clientSocket.flush()
 } catch {
