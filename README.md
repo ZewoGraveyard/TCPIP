@@ -156,6 +156,13 @@ $ git submodule add https://github.com/Zewo/Currents.git
 
 > The `Currents.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
 
+###Command Line Application
+
+To use **Currents** in a command line application:
+
+- Install the [Swift Command Line Application](https://github.com/Zewo/Swift-Command-Line-Application-Template) Xcode template
+- Follow [Cocoa Pods](#cocoapods), [Carthage](#carthage) or [Embedded Framework](#embedded-framework) instructions.
+
 License
 -------
 
