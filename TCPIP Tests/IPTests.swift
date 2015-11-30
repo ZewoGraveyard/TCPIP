@@ -23,7 +23,7 @@
 // SOFTWARE.
 
 import XCTest
-import Currents
+import TCPIP
 
 class IPTests: XCTestCase {
 

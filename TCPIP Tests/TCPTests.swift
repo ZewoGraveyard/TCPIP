@@ -23,7 +23,7 @@
 // SOFTWARE.
 
 import XCTest
-import Currents
+import TCPIP
 import Dispatch
 
 func async(f: Void -> Void) {

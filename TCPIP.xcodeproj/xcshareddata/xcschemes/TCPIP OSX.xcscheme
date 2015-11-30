@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
-               BuildableName = "Currents.framework"
-               BlueprintName = "Currents OSX"
-               ReferencedContainer = "container:Currents.xcodeproj">
+               BuildableName = "TCPIP.framework"
+               BlueprintName = "TCPIP OSX"
+               ReferencedContainer = "container:TCPIP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B00510A41BE97B7B001B3F26"
-               BuildableName = "Currents OSX Tests.xctest"
-               BlueprintName = "Currents OSX Tests"
-               ReferencedContainer = "container:Currents.xcodeproj">
+               BuildableName = "TCPIPTests.xctest"
+               BlueprintName = "TCPIP OSX Tests"
+               ReferencedContainer = "container:TCPIP.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
-            BuildableName = "Currents.framework"
-            BlueprintName = "Currents OSX"
-            ReferencedContainer = "container:Currents.xcodeproj">
+            BuildableName = "TCPIP.framework"
+            BlueprintName = "TCPIP OSX"
+            ReferencedContainer = "container:TCPIP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
-            BuildableName = "Currents.framework"
-            BlueprintName = "Currents OSX"
-            ReferencedContainer = "container:Currents.xcodeproj">
+            BuildableName = "TCPIP.framework"
+            BlueprintName = "TCPIP OSX"
+            ReferencedContainer = "container:TCPIP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
-            BuildableName = "Currents.framework"
-            BlueprintName = "Currents OSX"
-            ReferencedContainer = "container:Currents.xcodeproj">
+            BuildableName = "TCPIP.framework"
+            BlueprintName = "TCPIP OSX"
+            ReferencedContainer = "container:TCPIP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

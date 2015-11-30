@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B005109F1BE97B7B001B3F26 /* Currents.h in Headers */ = {isa = PBXBuildFile; fileRef = B005109E1BE97B7B001B3F26 /* Currents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B00510A61BE97B7B001B3F26 /* Currents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B005109B1BE97B7B001B3F26 /* Currents.framework */; };
-		B00510CD1BE97C75001B3F26 /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510C71BE97C75001B3F26 /* IP.swift */; };
-		B00510CE1BE97C75001B3F26 /* IPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510C81BE97C75001B3F26 /* IPError.swift */; };
-		B00510CF1BE97C75001B3F26 /* TCPClientSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510CA1BE97C75001B3F26 /* TCPClientSocket.swift */; };
-		B00510D01BE97C75001B3F26 /* TCPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510CB1BE97C75001B3F26 /* TCPError.swift */; };
-		B00510D11BE97C75001B3F26 /* TCPServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510CC1BE97C75001B3F26 /* TCPServerSocket.swift */; };
+		B00510A61BE97B7B001B3F26 /* TCPIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B005109B1BE97B7B001B3F26 /* TCPIP.framework */; };
 		B00510DA1BE99021001B3F26 /* ip.c in Sources */ = {isa = PBXBuildFile; fileRef = B00510D31BE99021001B3F26 /* ip.c */; };
 		B00510DB1BE99021001B3F26 /* ip.h in Headers */ = {isa = PBXBuildFile; fileRef = B00510D41BE99021001B3F26 /* ip.h */; };
 		B00510DC1BE99021001B3F26 /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = B00510D51BE99021001B3F26 /* tcp.c */; };
@@ -21,26 +15,32 @@
 		B00510DE1BE99021001B3F26 /* tide_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = B00510D71BE99021001B3F26 /* tide_swift.h */; };
 		B00510DF1BE99021001B3F26 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = B00510D81BE99021001B3F26 /* utils.c */; };
 		B00510E01BE99021001B3F26 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B00510D91BE99021001B3F26 /* utils.h */; };
-		B00510F41BE9952D001B3F26 /* Currents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00510EA1BE9952D001B3F26 /* Currents.framework */; };
-		B00511081BE995D1001B3F26 /* IPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00511031BE995D1001B3F26 /* IPTests.swift */; };
-		B00511091BE995D1001B3F26 /* IPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00511031BE995D1001B3F26 /* IPTests.swift */; };
-		B005110A1BE995D1001B3F26 /* TCPClientSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00511041BE995D1001B3F26 /* TCPClientSocketTests.swift */; };
-		B005110B1BE995D1001B3F26 /* TCPClientSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00511041BE995D1001B3F26 /* TCPClientSocketTests.swift */; };
-		B005110C1BE995D1001B3F26 /* TCPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00511051BE995D1001B3F26 /* TCPTests.swift */; };
-		B005110D1BE995D1001B3F26 /* TCPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00511051BE995D1001B3F26 /* TCPTests.swift */; };
-		B005110E1BE9968F001B3F26 /* Currents.h in Headers */ = {isa = PBXBuildFile; fileRef = B005109E1BE97B7B001B3F26 /* Currents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B00510F41BE9952D001B3F26 /* TCPIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00510EA1BE9952D001B3F26 /* TCPIP.framework */; };
 		B005110F1BE996AC001B3F26 /* tide_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = B00510D71BE99021001B3F26 /* tide_swift.h */; };
 		B00511101BE996AC001B3F26 /* ip.h in Headers */ = {isa = PBXBuildFile; fileRef = B00510D41BE99021001B3F26 /* ip.h */; };
 		B00511111BE996AC001B3F26 /* tcp.h in Headers */ = {isa = PBXBuildFile; fileRef = B00510D61BE99021001B3F26 /* tcp.h */; };
 		B00511121BE996AC001B3F26 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B00510D91BE99021001B3F26 /* utils.h */; };
-		B00511131BE996BB001B3F26 /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510C71BE97C75001B3F26 /* IP.swift */; };
-		B00511141BE996BB001B3F26 /* IPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510C81BE97C75001B3F26 /* IPError.swift */; };
-		B00511151BE996BB001B3F26 /* TCPClientSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510CA1BE97C75001B3F26 /* TCPClientSocket.swift */; };
-		B00511161BE996BB001B3F26 /* TCPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510CB1BE97C75001B3F26 /* TCPError.swift */; };
-		B00511171BE996BB001B3F26 /* TCPServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00510CC1BE97C75001B3F26 /* TCPServerSocket.swift */; };
 		B00511181BE996FD001B3F26 /* ip.c in Sources */ = {isa = PBXBuildFile; fileRef = B00510D31BE99021001B3F26 /* ip.c */; };
 		B00511191BE996FD001B3F26 /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = B00510D51BE99021001B3F26 /* tcp.c */; };
 		B005111A1BE996FD001B3F26 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = B00510D81BE99021001B3F26 /* utils.c */; };
+		B0678AC91C0BD875009C9BDA /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678ABE1C0BD843009C9BDA /* IP.swift */; };
+		B0678ACA1C0BD875009C9BDA /* IPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678ABF1C0BD843009C9BDA /* IPError.swift */; };
+		B0678ACB1C0BD875009C9BDA /* TCPClientSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC11C0BD843009C9BDA /* TCPClientSocket.swift */; };
+		B0678ACC1C0BD875009C9BDA /* TCPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC21C0BD843009C9BDA /* TCPError.swift */; };
+		B0678ACD1C0BD875009C9BDA /* TCPServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC31C0BD843009C9BDA /* TCPServerSocket.swift */; };
+		B0678ACE1C0BD876009C9BDA /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678ABE1C0BD843009C9BDA /* IP.swift */; };
+		B0678ACF1C0BD876009C9BDA /* IPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678ABF1C0BD843009C9BDA /* IPError.swift */; };
+		B0678AD01C0BD876009C9BDA /* TCPClientSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC11C0BD843009C9BDA /* TCPClientSocket.swift */; };
+		B0678AD11C0BD876009C9BDA /* TCPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC21C0BD843009C9BDA /* TCPError.swift */; };
+		B0678AD21C0BD876009C9BDA /* TCPServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC31C0BD843009C9BDA /* TCPServerSocket.swift */; };
+		B0678AD31C0BD87F009C9BDA /* IPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC61C0BD843009C9BDA /* IPTests.swift */; };
+		B0678AD41C0BD87F009C9BDA /* TCPClientSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC71C0BD843009C9BDA /* TCPClientSocketTests.swift */; };
+		B0678AD51C0BD87F009C9BDA /* TCPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC81C0BD843009C9BDA /* TCPTests.swift */; };
+		B0678AD61C0BD880009C9BDA /* IPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC61C0BD843009C9BDA /* IPTests.swift */; };
+		B0678AD71C0BD880009C9BDA /* TCPClientSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC71C0BD843009C9BDA /* TCPClientSocketTests.swift */; };
+		B0678AD81C0BD880009C9BDA /* TCPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0678AC81C0BD843009C9BDA /* TCPTests.swift */; };
+		B0678AD91C0BD88F009C9BDA /* TCPIP.h in Headers */ = {isa = PBXBuildFile; fileRef = B0678ABB1C0BD843009C9BDA /* TCPIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0678ADA1C0BD898009C9BDA /* TCPIP.h in Headers */ = {isa = PBXBuildFile; fileRef = B0678ABB1C0BD843009C9BDA /* TCPIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,16 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B005109B1BE97B7B001B3F26 /* Currents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Currents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B005109E1BE97B7B001B3F26 /* Currents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Currents.h; sourceTree = "<group>"; };
-		B00510A01BE97B7B001B3F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B00510A51BE97B7B001B3F26 /* Currents OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currents OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B005109B1BE97B7B001B3F26 /* TCPIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCPIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510A51BE97B7B001B3F26 /* TCPIP.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPIP.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00510BE1BE97BB4001B3F26 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		B00510C71BE97C75001B3F26 /* IP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
-		B00510C81BE97C75001B3F26 /* IPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPError.swift; sourceTree = "<group>"; };
-		B00510CA1BE97C75001B3F26 /* TCPClientSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPClientSocket.swift; sourceTree = "<group>"; };
-		B00510CB1BE97C75001B3F26 /* TCPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPError.swift; sourceTree = "<group>"; };
-		B00510CC1BE97C75001B3F26 /* TCPServerSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPServerSocket.swift; sourceTree = "<group>"; };
 		B00510D31BE99021001B3F26 /* ip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ip.c; sourceTree = "<group>"; };
 		B00510D41BE99021001B3F26 /* ip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip.h; sourceTree = "<group>"; };
 		B00510D51BE99021001B3F26 /* tcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcp.c; sourceTree = "<group>"; };
@@ -78,12 +71,19 @@
 		B00510D71BE99021001B3F26 /* tide_swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tide_swift.h; sourceTree = "<group>"; };
 		B00510D81BE99021001B3F26 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
 		B00510D91BE99021001B3F26 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
-		B00510EA1BE9952D001B3F26 /* Currents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Currents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510F31BE9952D001B3F26 /* Currents iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currents iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00511021BE995D1001B3F26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B00511031BE995D1001B3F26 /* IPTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPTests.swift; sourceTree = "<group>"; };
-		B00511041BE995D1001B3F26 /* TCPClientSocketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPClientSocketTests.swift; sourceTree = "<group>"; };
-		B00511051BE995D1001B3F26 /* TCPTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPTests.swift; sourceTree = "<group>"; };
+		B00510EA1BE9952D001B3F26 /* TCPIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCPIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510F31BE9952D001B3F26 /* TCPIP.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPIP.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0678ABB1C0BD843009C9BDA /* TCPIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPIP.h; sourceTree = "<group>"; };
+		B0678ABC1C0BD843009C9BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0678ABE1C0BD843009C9BDA /* IP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
+		B0678ABF1C0BD843009C9BDA /* IPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPError.swift; sourceTree = "<group>"; };
+		B0678AC11C0BD843009C9BDA /* TCPClientSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPClientSocket.swift; sourceTree = "<group>"; };
+		B0678AC21C0BD843009C9BDA /* TCPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPError.swift; sourceTree = "<group>"; };
+		B0678AC31C0BD843009C9BDA /* TCPServerSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPServerSocket.swift; sourceTree = "<group>"; };
+		B0678AC51C0BD843009C9BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0678AC61C0BD843009C9BDA /* IPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPTests.swift; sourceTree = "<group>"; };
+		B0678AC71C0BD843009C9BDA /* TCPClientSocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPClientSocketTests.swift; sourceTree = "<group>"; };
+		B0678AC81C0BD843009C9BDA /* TCPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00510A61BE97B7B001B3F26 /* Currents.framework in Frameworks */,
+				B00510A61BE97B7B001B3F26 /* TCPIP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00510F41BE9952D001B3F26 /* Currents.framework in Frameworks */,
+				B00510F41BE9952D001B3F26 /* TCPIP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				B00510B51BE97BB4001B3F26 /* Dependencies */,
-				B005109D1BE97B7B001B3F26 /* Currents */,
-				B00511011BE995D1001B3F26 /* Currents Tests */,
+				B0678ABA1C0BD843009C9BDA /* TCPIP */,
+				B0678AC41C0BD843009C9BDA /* TCPIP Tests */,
 				B005109C1BE97B7B001B3F26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,23 +133,12 @@
 		B005109C1BE97B7B001B3F26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B005109B1BE97B7B001B3F26 /* Currents.framework */,
-				B00510A51BE97B7B001B3F26 /* Currents OSX Tests.xctest */,
-				B00510EA1BE9952D001B3F26 /* Currents.framework */,
-				B00510F31BE9952D001B3F26 /* Currents iOS Tests.xctest */,
+				B005109B1BE97B7B001B3F26 /* TCPIP.framework */,
+				B00510A51BE97B7B001B3F26 /* TCPIP.xctest */,
+				B00510EA1BE9952D001B3F26 /* TCPIP.framework */,
+				B00510F31BE9952D001B3F26 /* TCPIP.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B005109D1BE97B7B001B3F26 /* Currents */ = {
-			isa = PBXGroup;
-			children = (
-				B005109E1BE97B7B001B3F26 /* Currents.h */,
-				B00510A01BE97B7B001B3F26 /* Info.plist */,
-				B00510C61BE97C75001B3F26 /* IP */,
-				B00510C91BE97C75001B3F26 /* TCP */,
-			);
-			path = Currents;
 			sourceTree = "<group>";
 		};
 		B00510B51BE97BB4001B3F26 /* Dependencies */ = {
@@ -159,25 +148,6 @@
 				B00510BE1BE97BB4001B3F26 /* module.modulemap */,
 			);
 			path = Dependencies;
-			sourceTree = "<group>";
-		};
-		B00510C61BE97C75001B3F26 /* IP */ = {
-			isa = PBXGroup;
-			children = (
-				B00510C71BE97C75001B3F26 /* IP.swift */,
-				B00510C81BE97C75001B3F26 /* IPError.swift */,
-			);
-			path = IP;
-			sourceTree = "<group>";
-		};
-		B00510C91BE97C75001B3F26 /* TCP */ = {
-			isa = PBXGroup;
-			children = (
-				B00510CA1BE97C75001B3F26 /* TCPClientSocket.swift */,
-				B00510CB1BE97C75001B3F26 /* TCPError.swift */,
-				B00510CC1BE97C75001B3F26 /* TCPServerSocket.swift */,
-			);
-			path = TCP;
 			sourceTree = "<group>";
 		};
 		B00510D21BE99021001B3F26 /* Tide */ = {
@@ -194,15 +164,45 @@
 			path = Tide;
 			sourceTree = "<group>";
 		};
-		B00511011BE995D1001B3F26 /* Currents Tests */ = {
+		B0678ABA1C0BD843009C9BDA /* TCPIP */ = {
 			isa = PBXGroup;
 			children = (
-				B00511021BE995D1001B3F26 /* Info.plist */,
-				B00511031BE995D1001B3F26 /* IPTests.swift */,
-				B00511041BE995D1001B3F26 /* TCPClientSocketTests.swift */,
-				B00511051BE995D1001B3F26 /* TCPTests.swift */,
+				B0678ABB1C0BD843009C9BDA /* TCPIP.h */,
+				B0678ABC1C0BD843009C9BDA /* Info.plist */,
+				B0678ABD1C0BD843009C9BDA /* IP */,
+				B0678AC01C0BD843009C9BDA /* TCP */,
 			);
-			path = "Currents Tests";
+			path = TCPIP;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0678ABD1C0BD843009C9BDA /* IP */ = {
+			isa = PBXGroup;
+			children = (
+				B0678ABE1C0BD843009C9BDA /* IP.swift */,
+				B0678ABF1C0BD843009C9BDA /* IPError.swift */,
+			);
+			path = IP;
+			sourceTree = "<group>";
+		};
+		B0678AC01C0BD843009C9BDA /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				B0678AC11C0BD843009C9BDA /* TCPClientSocket.swift */,
+				B0678AC21C0BD843009C9BDA /* TCPError.swift */,
+				B0678AC31C0BD843009C9BDA /* TCPServerSocket.swift */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		B0678AC41C0BD843009C9BDA /* TCPIP Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0678AC51C0BD843009C9BDA /* Info.plist */,
+				B0678AC61C0BD843009C9BDA /* IPTests.swift */,
+				B0678AC71C0BD843009C9BDA /* TCPClientSocketTests.swift */,
+				B0678AC81C0BD843009C9BDA /* TCPTests.swift */,
+			);
+			path = "TCPIP Tests";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -212,10 +212,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0678AD91C0BD88F009C9BDA /* TCPIP.h in Headers */,
 				B00510E01BE99021001B3F26 /* utils.h in Headers */,
 				B00510DE1BE99021001B3F26 /* tide_swift.h in Headers */,
 				B00510DD1BE99021001B3F26 /* tcp.h in Headers */,
-				B005109F1BE97B7B001B3F26 /* Currents.h in Headers */,
 				B00510DB1BE99021001B3F26 /* ip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +224,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B005110E1BE9968F001B3F26 /* Currents.h in Headers */,
+				B0678ADA1C0BD898009C9BDA /* TCPIP.h in Headers */,
 				B005110F1BE996AC001B3F26 /* tide_swift.h in Headers */,
 				B00511101BE996AC001B3F26 /* ip.h in Headers */,
 				B00511111BE996AC001B3F26 /* tcp.h in Headers */,
@@ -235,9 +235,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B005109A1BE97B7B001B3F26 /* Currents OSX */ = {
+		B005109A1BE97B7B001B3F26 /* TCPIP OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B00510AF1BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Currents OSX" */;
+			buildConfigurationList = B00510AF1BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "TCPIP OSX" */;
 			buildPhases = (
 				B00510961BE97B7B001B3F26 /* Sources */,
 				B00510971BE97B7B001B3F26 /* Frameworks */,
@@ -248,14 +248,14 @@
 			);
 			dependencies = (
 			);
-			name = "Currents OSX";
+			name = "TCPIP OSX";
 			productName = Currents;
-			productReference = B005109B1BE97B7B001B3F26 /* Currents.framework */;
+			productReference = B005109B1BE97B7B001B3F26 /* TCPIP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B00510A41BE97B7B001B3F26 /* Currents OSX Tests */ = {
+		B00510A41BE97B7B001B3F26 /* TCPIP OSX Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Currents OSX Tests" */;
+			buildConfigurationList = B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "TCPIP OSX Tests" */;
 			buildPhases = (
 				B00510A11BE97B7B001B3F26 /* Sources */,
 				B00510A21BE97B7B001B3F26 /* Frameworks */,
@@ -266,14 +266,14 @@
 			dependencies = (
 				B00510A81BE97B7B001B3F26 /* PBXTargetDependency */,
 			);
-			name = "Currents OSX Tests";
+			name = "TCPIP OSX Tests";
 			productName = CurrentsTests;
-			productReference = B00510A51BE97B7B001B3F26 /* Currents OSX Tests.xctest */;
+			productReference = B00510A51BE97B7B001B3F26 /* TCPIP.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B00510E91BE9952D001B3F26 /* Currents iOS */ = {
+		B00510E91BE9952D001B3F26 /* TCPIP iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Currents iOS" */;
+			buildConfigurationList = B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "TCPIP iOS" */;
 			buildPhases = (
 				B00510E51BE9952D001B3F26 /* Sources */,
 				B00510E61BE9952D001B3F26 /* Frameworks */,
@@ -284,14 +284,14 @@
 			);
 			dependencies = (
 			);
-			name = "Currents iOS";
+			name = "TCPIP iOS";
 			productName = "Currents iOS";
-			productReference = B00510EA1BE9952D001B3F26 /* Currents.framework */;
+			productReference = B00510EA1BE9952D001B3F26 /* TCPIP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B00510F21BE9952D001B3F26 /* Currents iOS Tests */ = {
+		B00510F21BE9952D001B3F26 /* TCPIP iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Currents iOS Tests" */;
+			buildConfigurationList = B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "TCPIP iOS Tests" */;
 			buildPhases = (
 				B00510EF1BE9952D001B3F26 /* Sources */,
 				B00510F01BE9952D001B3F26 /* Frameworks */,
@@ -302,9 +302,9 @@
 			dependencies = (
 				B00510F61BE9952D001B3F26 /* PBXTargetDependency */,
 			);
-			name = "Currents iOS Tests";
+			name = "TCPIP iOS Tests";
 			productName = "Currents iOSTests";
-			productReference = B00510F31BE9952D001B3F26 /* Currents iOS Tests.xctest */;
+			productReference = B00510F31BE9952D001B3F26 /* TCPIP.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -331,7 +331,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B00510951BE97B7B001B3F26 /* Build configuration list for PBXProject "Currents" */;
+			buildConfigurationList = B00510951BE97B7B001B3F26 /* Build configuration list for PBXProject "TCPIP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -343,10 +343,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B005109A1BE97B7B001B3F26 /* Currents OSX */,
-				B00510E91BE9952D001B3F26 /* Currents iOS */,
-				B00510A41BE97B7B001B3F26 /* Currents OSX Tests */,
-				B00510F21BE9952D001B3F26 /* Currents iOS Tests */,
+				B005109A1BE97B7B001B3F26 /* TCPIP OSX */,
+				B00510E91BE9952D001B3F26 /* TCPIP iOS */,
+				B00510A41BE97B7B001B3F26 /* TCPIP OSX Tests */,
+				B00510F21BE9952D001B3F26 /* TCPIP iOS Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -387,14 +387,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0678AC91C0BD875009C9BDA /* IP.swift in Sources */,
+				B0678ACB1C0BD875009C9BDA /* TCPClientSocket.swift in Sources */,
+				B0678ACC1C0BD875009C9BDA /* TCPError.swift in Sources */,
+				B0678ACA1C0BD875009C9BDA /* IPError.swift in Sources */,
 				B00510DA1BE99021001B3F26 /* ip.c in Sources */,
 				B00510DF1BE99021001B3F26 /* utils.c in Sources */,
-				B00510CD1BE97C75001B3F26 /* IP.swift in Sources */,
 				B00510DC1BE99021001B3F26 /* tcp.c in Sources */,
-				B00510CF1BE97C75001B3F26 /* TCPClientSocket.swift in Sources */,
-				B00510D01BE97C75001B3F26 /* TCPError.swift in Sources */,
-				B00510CE1BE97C75001B3F26 /* IPError.swift in Sources */,
-				B00510D11BE97C75001B3F26 /* TCPServerSocket.swift in Sources */,
+				B0678ACD1C0BD875009C9BDA /* TCPServerSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00511081BE995D1001B3F26 /* IPTests.swift in Sources */,
-				B005110C1BE995D1001B3F26 /* TCPTests.swift in Sources */,
-				B005110A1BE995D1001B3F26 /* TCPClientSocketTests.swift in Sources */,
+				B0678AD31C0BD87F009C9BDA /* IPTests.swift in Sources */,
+				B0678AD51C0BD87F009C9BDA /* TCPTests.swift in Sources */,
+				B0678AD41C0BD87F009C9BDA /* TCPClientSocketTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,14 +412,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0678ACE1C0BD876009C9BDA /* IP.swift in Sources */,
+				B0678AD01C0BD876009C9BDA /* TCPClientSocket.swift in Sources */,
+				B0678AD11C0BD876009C9BDA /* TCPError.swift in Sources */,
+				B0678ACF1C0BD876009C9BDA /* IPError.swift in Sources */,
 				B00511181BE996FD001B3F26 /* ip.c in Sources */,
 				B005111A1BE996FD001B3F26 /* utils.c in Sources */,
-				B00511131BE996BB001B3F26 /* IP.swift in Sources */,
 				B00511191BE996FD001B3F26 /* tcp.c in Sources */,
-				B00511151BE996BB001B3F26 /* TCPClientSocket.swift in Sources */,
-				B00511161BE996BB001B3F26 /* TCPError.swift in Sources */,
-				B00511141BE996BB001B3F26 /* IPError.swift in Sources */,
-				B00511171BE996BB001B3F26 /* TCPServerSocket.swift in Sources */,
+				B0678AD21C0BD876009C9BDA /* TCPServerSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +427,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00511091BE995D1001B3F26 /* IPTests.swift in Sources */,
-				B005110D1BE995D1001B3F26 /* TCPTests.swift in Sources */,
-				B005110B1BE995D1001B3F26 /* TCPClientSocketTests.swift in Sources */,
+				B0678AD61C0BD880009C9BDA /* IPTests.swift in Sources */,
+				B0678AD81C0BD880009C9BDA /* TCPTests.swift in Sources */,
+				B0678AD71C0BD880009C9BDA /* TCPClientSocketTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +438,12 @@
 /* Begin PBXTargetDependency section */
 		B00510A81BE97B7B001B3F26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B005109A1BE97B7B001B3F26 /* Currents OSX */;
+			target = B005109A1BE97B7B001B3F26 /* TCPIP OSX */;
 			targetProxy = B00510A71BE97B7B001B3F26 /* PBXContainerItemProxy */;
 		};
 		B00510F61BE9952D001B3F26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B00510E91BE9952D001B3F26 /* Currents iOS */;
+			target = B00510E91BE9952D001B3F26 /* TCPIP iOS */;
 			targetProxy = B00510F51BE9952D001B3F26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -545,13 +545,13 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Currents/Info.plist;
+				INFOPLIST_FILE = TCPIP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsOSX;
-				PRODUCT_MODULE_NAME = Currents;
-				PRODUCT_NAME = Currents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.TCPIP;
+				PRODUCT_MODULE_NAME = TCPIP;
+				PRODUCT_NAME = TCPIP;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Dependencies";
 			};
@@ -567,13 +567,13 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Currents/Info.plist;
+				INFOPLIST_FILE = TCPIP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsOSX;
-				PRODUCT_MODULE_NAME = Currents;
-				PRODUCT_NAME = Currents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.TCPIP;
+				PRODUCT_MODULE_NAME = TCPIP;
+				PRODUCT_NAME = TCPIP;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Dependencies";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -584,10 +584,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Currents Tests/Info.plist";
+				INFOPLIST_FILE = "TCPIP Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsOSXTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.TCPIPTests;
+				PRODUCT_NAME = TCPIPTests;
 			};
 			name = Debug;
 		};
@@ -595,10 +595,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Currents Tests/Info.plist";
+				INFOPLIST_FILE = "TCPIP Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsOSXTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.TCPIPTests;
+				PRODUCT_NAME = TCPIPTests;
 			};
 			name = Release;
 		};
@@ -611,13 +611,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Currents/Info.plist;
+				INFOPLIST_FILE = TCPIP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsiOS;
-				PRODUCT_MODULE_NAME = Currents;
-				PRODUCT_NAME = Currents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.TCPIP;
+				PRODUCT_MODULE_NAME = TCPIP;
+				PRODUCT_NAME = TCPIP;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Dependencies";
@@ -634,13 +634,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Currents/Info.plist;
+				INFOPLIST_FILE = TCPIP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsiOS;
-				PRODUCT_MODULE_NAME = Currents;
-				PRODUCT_NAME = Currents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.TCPIP;
+				PRODUCT_MODULE_NAME = TCPIP;
+				PRODUCT_NAME = TCPIP;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Dependencies";
@@ -654,11 +654,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Currents Tests/Info.plist";
+				INFOPLIST_FILE = "TCPIP Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsiOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.TCPIPTests;
+				PRODUCT_NAME = TCPIPTests;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -667,11 +667,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Currents Tests/Info.plist";
+				INFOPLIST_FILE = "TCPIP Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.CurrentsiOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.TCPIPTests;
+				PRODUCT_NAME = TCPIPTests;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -680,7 +680,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B00510951BE97B7B001B3F26 /* Build configuration list for PBXProject "Currents" */ = {
+		B00510951BE97B7B001B3F26 /* Build configuration list for PBXProject "TCPIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510AD1BE97B7B001B3F26 /* Debug */,
@@ -689,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B00510AF1BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Currents OSX" */ = {
+		B00510AF1BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "TCPIP OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510B01BE97B7B001B3F26 /* Debug */,
@@ -698,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Currents OSX Tests" */ = {
+		B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "TCPIP OSX Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510B31BE97B7B001B3F26 /* Debug */,
@@ -707,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Currents iOS" */ = {
+		B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "TCPIP iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510FC1BE9952D001B3F26 /* Debug */,
@@ -716,7 +716,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Currents iOS Tests" */ = {
+		B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "TCPIP iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510FF1BE9952D001B3F26 /* Debug */,
