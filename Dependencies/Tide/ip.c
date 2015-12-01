@@ -24,10 +24,10 @@
 
 #if defined __linux__
 #define _GNU_SOURCE
-#include <netdb.h>
 #include <sys/eventfd.h>
 #endif
 
+#include <netdb.h>
 #include <arpa/inet.h>
 #include <errno.h>
 #include <netinet/in.h>
@@ -230,23 +230,14 @@ ipaddr iplocal(const char *name, int port, int mode) {
 
 ipaddr ipremote(const char *name, int port, int mode) {
     ipaddr addr = tide_ipliteral(name, port, mode);
-#if !defined HAVE_LIBANL
-    return addr;
-#else
     if(errno == 0)
        return addr;
     struct addrinfo request;
+    struct addrinfo *result;
     memset(&request, 0, sizeof(request));
     request.ai_family = AF_UNSPEC;
     request.ai_socktype = SOCK_STREAM;
-    struct gaicb gcb;
-    memset(&gcb, 0, sizeof(gcb));
-    gcb.ar_name = name;
-    gcb.ar_service = NULL;
-    gcb.ar_request = &request;
-    gcb.ar_result = NULL;
-    struct gaicb *pgcb = &gcb;
-    int rc = getaddrinfo_a(GAI_WAIT, &pgcb, 1, NULL);
+    int rc = getaddrinfo(name, NULL, &request, &result);
     if(tide_slow(rc != 0)) {
         if(rc == EAI_AGAIN || rc == EAI_MEMORY) {
             errno = ENOMEM;
@@ -254,14 +245,9 @@ ipaddr ipremote(const char *name, int port, int mode) {
         }
         tide_assert(0);
     }
-    rc = gai_error(&gcb);
-    if(rc != 0) {
-        errno = EINVAL;
-        return addr;
-    }
     struct addrinfo *ipv4 = NULL;
     struct addrinfo *ipv6 = NULL;
-    struct addrinfo *it = gcb.ar_result;
+    struct addrinfo *it = result;
     while(it) {
         if(!ipv4 && it->ai_family == AF_INET)
             ipv4 = it;
@@ -300,9 +286,8 @@ ipaddr ipremote(const char *name, int port, int mode) {
         memcpy(inaddr, ipv6->ai_addr, sizeof (struct sockaddr_in6));
         inaddr->sin6_port = htons(port);
     }
-    freeaddrinfo(gcb.ar_result);
+    freeaddrinfo(result);
     errno = 0;
     return addr;
-#endif
 }
 
