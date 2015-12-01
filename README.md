@@ -5,9 +5,10 @@ TCPIP
 [![Platforms OS X | iOS](https://img.shields.io/badge/Platforms-OS%20X%20%7C%20iOS-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
 [![Cocoapods Compatible](https://img.shields.io/badge/Cocoapods-Compatible-4BC51D.svg?style=flat)](https://cocoapods.org/pods/TCPIP)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-Compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
 [![Travis](https://img.shields.io/badge/Build-Passing-4BC51D.svg?style=flat)](https://travis-ci.org/Zewo/TCPIP)
-[![codecov.io](http://codecov.io/github/Zewo/TCPIP/coverage.svg?branch=master)](http://codecov.io/github/Zewo/TCPIP?branch=master)
+[![codecov.io](http://codecov.io/github/Zewo/TCPIP/coverage.svg?branch=master)](http://codecov.io/github/Zewo/TCPIP)
+[![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](https://zewo-slackin.herokuapp.com)
 
 **TCPIP** is a TCP/IP library for **Swift 2**.
 
@@ -126,6 +127,12 @@ To use **TCPIP** in a command line application:
 
 - Install the [Swift Command Line Application](https://github.com/Zewo/Swift-Command-Line-Application-Template) Xcode template
 - Follow [Cocoa Pods](#cocoapods) or [Carthage](#carthage) instructions.
+
+## Community
+
+[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](https://zewo-slackin.herokuapp.com)
+
+Join us on [Slack](https://zewo-slackin.herokuapp.com).
 
 License
 -------
