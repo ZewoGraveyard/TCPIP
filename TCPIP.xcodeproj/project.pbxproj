@@ -62,7 +62,7 @@
 
 /* Begin PBXFileReference section */
 		B005109B1BE97B7B001B3F26 /* TCPIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCPIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510A51BE97B7B001B3F26 /* TCPIP.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPIP.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510A51BE97B7B001B3F26 /* TCPIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00510BE1BE97BB4001B3F26 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		B00510D31BE99021001B3F26 /* ip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ip.c; sourceTree = "<group>"; };
 		B00510D41BE99021001B3F26 /* ip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip.h; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		B00510D81BE99021001B3F26 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
 		B00510D91BE99021001B3F26 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		B00510EA1BE9952D001B3F26 /* TCPIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCPIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510F31BE9952D001B3F26 /* TCPIP.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPIP.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510F31BE9952D001B3F26 /* TCPIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0678ABB1C0BD843009C9BDA /* TCPIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPIP.h; sourceTree = "<group>"; };
 		B0678ABC1C0BD843009C9BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0678ABE1C0BD843009C9BDA /* IP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
@@ -134,9 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				B005109B1BE97B7B001B3F26 /* TCPIP.framework */,
-				B00510A51BE97B7B001B3F26 /* TCPIP.xctest */,
+				B00510A51BE97B7B001B3F26 /* TCPIPTests.xctest */,
 				B00510EA1BE9952D001B3F26 /* TCPIP.framework */,
-				B00510F31BE9952D001B3F26 /* TCPIP.xctest */,
+				B00510F31BE9952D001B3F26 /* TCPIPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			);
 			name = "TCPIP OSX Tests";
 			productName = CurrentsTests;
-			productReference = B00510A51BE97B7B001B3F26 /* TCPIP.xctest */;
+			productReference = B00510A51BE97B7B001B3F26 /* TCPIPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B00510E91BE9952D001B3F26 /* TCPIP iOS */ = {
@@ -304,7 +304,7 @@
 			);
 			name = "TCPIP iOS Tests";
 			productName = "Currents iOSTests";
-			productReference = B00510F31BE9952D001B3F26 /* TCPIP.xctest */;
+			productReference = B00510F31BE9952D001B3F26 /* TCPIPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
