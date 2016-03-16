@@ -1,4 +1,4 @@
-// TCPError.swift
+// IPError.swift
 //
 // The MIT License (MIT)
 //
@@ -22,18 +22,16 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import Tide
+import CTide
 
-public struct TCPError : ErrorType, CustomStringConvertible {
+public struct IPError : ErrorProtocol, CustomStringConvertible {
     public let description: String
-    public let bytesProcessed: Int?
 
     init(description: String, bytesProcessed: Int? = nil) {
         self.description = description
-        self.bytesProcessed = bytesProcessed
     }
 
     static var lastSystemErrorDescription: String {
-        return String.fromCString(strerror(errno))!
+        return String(validatingUTF8: strerror(errno))!
     }
 }

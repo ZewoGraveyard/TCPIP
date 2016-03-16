@@ -1,16 +1,12 @@
 TCPIP
 =====
 
-[![Swift 2.0](https://img.shields.io/badge/Swift-2.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
-[![Platforms OS X | iOS](https://img.shields.io/badge/Platforms-OS%20X%20%7C%20iOS-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
-[![Cocoapods Compatible](https://img.shields.io/badge/Cocoapods-Compatible-4BC51D.svg?style=flat)](https://cocoapods.org/pods/TCPIP)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-Compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
-[![Travis](https://img.shields.io/badge/Build-Passing-4BC51D.svg?style=flat)](https://travis-ci.org/Zewo/TCPIP)
-[![codecov.io](http://codecov.io/github/Zewo/TCPIP/coverage.svg?branch=master)](http://codecov.io/github/Zewo/TCPIP)
-[![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](https://zewo-slackin.herokuapp.com)
+[![Swift][swift-badge]][swift-url]
+[![Platform][platform-badge]][platform-url]
+[![License][mit-badge]][mit-url]
+[![Slack][slack-badge]][slack-url]
 
-**TCPIP** is a TCP/IP library for **Swift 2**.
+**TCPIP** is a TCP/IP library for **Swift 3.0**.
 
 ## Features
 
@@ -75,50 +71,17 @@ do {
 }
 ```
 
-## Installation
+### Package
 
-### CocoaPods
+```swift
+import PackageDescription
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+let package = Package(
+    dependencies: [
+        .Package(url: "https://github.com/Zewo/TCPIP.git", majorVersion: 0, minor: 4)
+    ]
+)
 
-```bash
-$ gem install cocoapods
-```
-
-> CocoaPods 0.39.0+ is required to build TCPIP.
-
-To integrate **TCPIP** into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-source 'https://github.com/Zewo/Specs.git'
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
-
-pod 'TCPIP', '0.1'
-```
-> Don't forget  `source 'https://github.com/Zewo/Specs.git'`. This is very important. It should always come before the official CocoaPods repo.
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that automates the process of adding frameworks to your Cocoa application.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate **TCPIP** into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "Zewo/TCPIP" == 0.1
 ```
 
 ### Command Line Application
@@ -126,7 +89,6 @@ github "Zewo/TCPIP" == 0.1
 To use **TCPIP** in a command line application:
 
 - Install the [Swift Command Line Application](https://github.com/Zewo/Swift-Command-Line-Application-Template) Xcode template
-- Follow [Cocoa Pods](#cocoapods) or [Carthage](#carthage) instructions.
 
 ## Community
 
@@ -138,3 +100,13 @@ License
 -------
 
 **TCPIP** is released under the MIT license. See LICENSE for details.
+
+[swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
+[swift-url]: https://swift.org
+[platform-badge]: https://img.shields.io/badge/Platform-Mac%20%26%20Linux-lightgray.svg?style=flat
+[platform-url]: https://swift.org
+[mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
+[mit-url]: https://tldrlegal.com/license/mit-license
+[slack-image]: http://s13.postimg.org/ybwy92ktf/Slack.png
+[slack-badge]: https://zewo-slackin.herokuapp.com/badge.svg
+[slack-url]: http://slack.zewo.io

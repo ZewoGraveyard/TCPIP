@@ -22,7 +22,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import Tide
+import CTide
 
 public final class TCPClientSocket {
     private var socket: tcpsock
@@ -91,7 +91,7 @@ public final class TCPClientSocket {
             throw TCPError(description: "Closed socket")
         }
 
-        var buffer: [Int8] = [Int8](count: bufferSize, repeatedValue: 0)
+        var buffer: [Int8] = [Int8](repeating: 0, count: bufferSize)
         let bytesProcessed = tcprecv(socket, &buffer, bufferSize)
 
         if errno != 0 {
@@ -107,7 +107,7 @@ public final class TCPClientSocket {
             throw TCPError(description: "Closed socket")
         }
 
-        var buffer: [Int8] = [Int8](count: bufferSize, repeatedValue: 0)
+        var buffer: [Int8] = [Int8](repeating: 0, count: bufferSize)
         let bytesProcessed = tcprecvuntil(socket, &buffer, bufferSize, delimiter, delimiter.utf8.count)
 
         if errno != 0 && errno != ENOBUFS {
@@ -156,19 +156,20 @@ extension TCPClientSocket {
         try send(&data, length: data.count)
     }
 
-    public func send(var data: [Int8]) throws {
+    public func send(data: [Int8]) throws {
+        var data = data
         try send(&data, length: data.count)
     }
 
     public func receiveString(bufferSize bufferSize: Int = 256, untilDelimiter delimiter: String) throws -> String? {
         var response = try receive(bufferSize: bufferSize, untilDelimiter: delimiter)
         response.append(0)
-        return String.fromCString(response)
+        return String(validatingUTF8: response)
     }
 
     public func receiveString(bufferSize bufferSize: Int = 256) throws -> String? {
         var response = try receive(bufferSize: bufferSize)
         response.append(0)
-        return String.fromCString(response)
+        return String(validatingUTF8: response)
     }
 }

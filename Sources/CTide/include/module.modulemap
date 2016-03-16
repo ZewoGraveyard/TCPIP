@@ -1,0 +1,5 @@
+module CTide {
+    header "../tide_swift.h"
+    link "Tide"
+    export *
+}
