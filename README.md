@@ -1,4 +1,4 @@
-TCPIP
+[Deprecated] TCPIP
 =====
 
 [![Swift][swift-badge]][swift-url]
